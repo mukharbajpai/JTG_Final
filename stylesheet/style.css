@@ -1,4 +1,5 @@
 /* Mandatory CSS Part */
+
 body {
   background-image: url("resources/bkg.png");
   font-family: "Roboto", sans-serif !important;
@@ -129,6 +130,7 @@ body {
 }
 
 #header-bottom-searchbtn {
+  outline: none;
   float: right;
   margin-right: 48px;
   background-image: url("resources/search.png");
@@ -235,6 +237,12 @@ li {
 
 .section-categories {
   font-weight: bold;
+}
+.section-categories a {
+  color: #242323;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
 }
 
 .featured-section {
